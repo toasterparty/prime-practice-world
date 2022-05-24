@@ -4,6 +4,8 @@ This is a romhack for the Gamecube version(s) of Metroid Prime 1. It is designed
 
 ![img01](/img/img01.png)
 
+![img02](/img/img02.png)
+
 ## Features
 
 - Everything is accesible in one large room without the use of cheats, menus, resets, etc.
