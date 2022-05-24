@@ -1,0 +1,612 @@
+{
+    "seed": 123,
+    "tweaks": {
+        "gunDamage": 1.0,
+        "scanRange": 150.0
+    },
+    "preferences": {
+        "forceFusion": false,
+        "skipSplashScreens": true,
+        "qolGameBreaking": true,
+        "qolCosmetic": true,
+        "qolCutscenes": "original",
+        "qolPickupScans": false,
+        "quickplay": false,
+        "quickpatch": false,
+        "suitColors": {
+            "powerDeg": 0,
+            "variaDeg": 0,
+            "gravityDeg": 0,
+            "phazonDeg": 0
+        }
+    },
+    "gameConfig": {
+        "resultsString": "Custom Text Here",
+        "startingRoom": "Chozo:Meditation Fountain",
+        "springBall": true,
+        "warpToStart": true,
+        "startingItems": {
+            "combatVisor": true,
+            "scanVisor": true,
+            "thermalVisor": true,
+            "xray": true,
+            "powerBeam": true,
+            "missiles": 999,
+            "energyTanks": 99,
+            "powerBombs": 99,
+            "wave": true,
+            "ice": true,
+            "plasma": true,
+            "charge": true,
+            "morphBall": true,
+            "bombs": true,
+            "spiderBall": true,
+            "boostBall": true,
+            "variaSuit": true,
+            "gravitySuit": false,
+            "phazonSuit": true,
+            "spaceJump": false,
+            "grapple": true,
+            "superMissile": true,
+            "wavebuster": true,
+            "iceSpreader": true,
+            "flamethrower": true
+        },
+        "itemMaxCapacity": {
+            "Missile": 999,
+            "Power Bomb": 9
+        }
+    },
+    "levelData": {
+        "Impact Crater":{
+            "transports": {
+                "Essence Dead Cutscene": "Frigate:Exterior Docking Hangar"
+            },
+            "rooms": {}
+        },
+        "Chozo Ruins": {
+            "transports": {},
+            "rooms": {
+                "Antechamber":{
+                    "ambientLightingScale": 4.0,
+                    "spawnPositionOverride": [805.0, -303.0, 140.0],
+                    "boundingBoxScale": [1.0, 1.0, 3.0],
+                    "boundingBoxOffset": [0.0, 0.0, 50.0],
+                    "pickups":[
+                        {
+                            "type": "Health Refill",
+                            "scanText": "Return to Sandbox",
+                            "hudmemoText": "Returning to Sandbox...",
+                            "model": "Nothing",
+                            "maxIncrease": 0,
+                            "currIncrease": 99999,
+                            "respawn": true,
+                            "destination":"Chozo:Meditation Fountain",
+                            "position": [805.0, -290.0, 122.0]
+                        }
+                    ],
+                    "blocks":[
+                        {
+                            "position": [805.0, -300.0, 118.0],
+                            "scale": [40.0, 40.0, 1.0],
+                            "texture": "mine"
+                        },
+                        {
+                            "position": [805.0, -300.0, 160.0],
+                            "scale": [40.0, 40.0, 1.0],
+                            "texture": "crater"
+                        },
+
+                        {
+                            "position": [786.0, -321.0, 139.0],
+                            "scale": [50.0, 1.0, 60.0],
+                            "texture": "grass"
+                        },
+                        {
+                            "position": [786.0, -287.0, 139.0],
+                            "scale": [1.0, 50.0, 60.0],
+                            "texture": "grass"
+                        },
+                        {
+                            "position": [823.0, -321.0, 139.0],
+                            "scale": [1.0, 50.0, 60.0],
+                            "texture": "grass"
+                        },
+                        {
+                            "position": [823.0, -287.0, 139.0],
+                            "scale": [50.0, 1.0, 60.0],
+                            "texture": "grass"
+                        }
+                    ]
+                },
+                "Meditation Fountain": {
+                    "ambientLightingScale": 4.5,
+                    "spawnPositionOverride": [120.0, 0.0, 3.25],
+                    "boundingBoxScale": [2000.0, 2000.0, 100.0],
+                    "pickups":[
+                        {
+                            "type": "Floaty Jump",
+                            "model": "Nothing",
+                            "respawn": true,
+                            "position": [120.0, -35.0, 5.0]
+                        },
+                        {
+                            "type": "Space Jump Boots",
+                            "respawn": true,
+                            "destination":"Chozo:Meditation Fountain",
+                            "position": [130.0, -35.0, 3.5]
+                        },
+                        {
+                            "type": "Space Jump Boots",
+                            "scanText": "Anti-Space Jump Boots",
+                            "hudmemoText": "Lost Jump Boots",
+                            "model": "Nothing",
+                            "maxIncrease": -1,
+                            "respawn": true,
+                            "destination":"Chozo:Meditation Fountain",
+                            "position": [135.0, -35.0, 5.0]
+                        },
+                        {
+                            "type": "Nothing",
+                            "scanText": "Early Wild Practice",
+                            "model": "Artifact of Wild",
+                            "maxIncrease": 0,
+                            "respawn": true,
+                            "destination":"chozo:sun tower",
+                            "position": [175.0, -35.0, 5.0]
+                        },
+                        {
+                            "type": "Nothing",
+                            "scanText": "Aether Box BoxTM",
+                            "model": "Artifact of Newborn",
+                            "maxIncrease": 0,
+                            "respawn": true,
+                            "destination":"chozo:antechamber",
+                            "position": [180.0, -35.0, 5.0]
+                        }
+                    ],
+                    "blocks": [
+                        {"position": [10.0, 10.0, 1.0]},
+                        {"position": [10.0, 12.0, 3.0]},
+                        {"position": [10.0, 14.0, 5.0]},
+                        {"position": [10.0, 16.0, 7.0]},
+                        {
+                            "position": [475.0, 250.0, 0.001],
+                            "scale": [500.0, 300.0, 0.1],
+                            "texture": "mine"
+                        },
+                        {
+                            "position": [475.0, -250.0, -0.001],
+                            "scale": [500.0, 300.0, 0.1],
+                            "texture": "mine"
+                        },
+                        {
+                            "position": [-375.0, 250.0, 0.002],
+                            "scale": [500.0, 300.0, 0.1],
+                            "texture": "mine"
+                        },
+                        {
+                            "position": [-375.0, -250.0, -0.002],
+                            "scale": [500.0, 300.0, 0.1],
+                            "texture": "mine"
+                        },
+                        {
+                            "position": [900.0, 0.0, 0.0],
+                            "scale": [0.1, 1100.0, 10.0],
+                            "texture": "crater"
+                        },
+                        {
+                            "position": [-450.0, 0.0, 0.0],
+                            "scale": [0.1, 1100.0, 10.0],
+                            "texture": "crater"
+                        },
+                        {
+                            "position": [50.0, 500.0, 0.0],
+                            "scale": [1100.0, 0.1, 10.0],
+                            "texture": "crater"
+                        },
+                        {
+                            "position": [50.0, -500.0, 0.0],
+                            "scale": [1100.0, 0.1, 10.0],
+                            "texture": "crater"
+                        },
+
+                        {
+                            "position": [150.0, 0.0, 1.0],
+                            "scale": [50.0, 50.0, 2.5],
+                            "texture": "sandstone"
+                        },
+
+                        {
+                            "position": [208.0, -115.0, 16.7],
+                            "scale": [60.0, 60.0, 0.1],
+                            "texture": "sandstone"
+                        },
+
+                        {
+                            "position": [-50.0, -115.0, 7.1],
+                            "scale": [10.0, 10.0, 15.0],
+                            "texture": "snow"
+                        },
+
+                        {
+                            "position": [-285.0, -115.0, 20.8],
+                            "scale": [40.0, 40.0, 0.5],
+                            "texture": "snow"
+                        },
+
+                        {
+                            "position": [-285.0, -115.0, 20.0],
+                            "scale": [4.0, 4.0, 50.0],
+                            "texture": "snow"
+                        },
+
+                        {"position": [676.0, -300.0, 0.001],"scale": [150.0, 25.0, 3.5]},
+                        {"position": [422.5, -300.0, 0.0],"scale": [150.0, 25.0, 3.5]},
+
+                        {"position": [300.0, -200.0, 0.0],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [321.5, -200.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [344.5, -200.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [369.5, -200.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [395.0, -200.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [401.0, -200.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [429.5, -200.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [433.0, -200.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [465.0, -200.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+
+                        {"position": [300.0, -100.0, 0.0],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [342.5, -100.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [388.5, -100.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [429.5, -100.0, 0.000],"scale": [2.0, 50.0, 3.5]},
+                        {"position": [469.5, -100.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+
+                        {"position": [300.0, 0.0, 0.0],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [336.0, 0.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [375.0, 0.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [417.0, 0.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [459.0, 0.0, 0.001],"scale": [6.0, 20.0, 3.5]},
+                        {"position": [437.0, 0.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 5.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 10.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 15.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 20.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 25.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, 0.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, -5.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, -10.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, -15.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, -20.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [437.0, -25.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [469.0, 0.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [515.0, 0.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [564.5, 0.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [571.5, 0.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [624.5, 0.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [679.5, 0.0, 4.001],"scale": [6.0, 50.0, 12.0]},
+
+                        {"position": [300.0, 100.0, 0.0],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [371.0, 100.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [426.0, 100.0, 0.001],"scale": [1.0, 50.0, 3.5]},
+                        {"position": [451.0, 100.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [533.0, 100.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [615.0, 100.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [699.0, 100.0, 0.001],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [779.0, 100.0, 0.000],"scale": [6.0, 50.0, 3.5]},
+                        {"position": [854.0, 100.0, 0.001],"scale": [6.0, 25.0, 3.5]},
+                        {"position": [814.0, 100.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 105.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 110.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 115.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 120.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 125.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 130.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 100.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 95.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 90.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 85.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 80.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 75.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [814.0, 70.0, 5.000],"scale": [1.0, 2.5, 10.0]},
+                        {"position": [897.0, 100.0, 0.000],"scale": [6.0, 50.0, 12.0]},
+
+                        {"position": [300.0, 200.0, -5.2], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [330.0, 200.0, -2.0], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [360.0, 200.0, -0.7], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [405.4, 200.0, -5.5], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [420.0, 200.0, 1.3], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [450.0, 200.0, -0.4], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [480.0, 200.0, 0.5], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [510.0, 200.0, 1.5], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [540.0, 200.0, -1.7], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [537.0, 203.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [537.0, 196.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [570.0, 200.0, -1.1], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [567.0, 203.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [567.0, 196.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [600.0, 200.0, -4.2], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [630.0, 200.0, -5.0], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [690.0, 200.0, -1.9], "scale": [4.0, 4.0, 10.0]},
+
+                        {"position": [300.0, 300.0, -5.1], "scale": [4.0, 6.0, 10.0]},
+                        {"position": [330.0, 300.0, -3.8], "scale": [4.0, 6.0, 10.0]},
+                        {"position": [360.0, 300.0, -3.4], "scale": [4.0, 6.0, 10.0]},
+                        {"position": [347.5, 300.0, 0.5], "scale": [1.0, 6.0, 10.0]},
+                        {"position": [390.0, 300.0, -1.1], "scale": [4.0, 6.0, 10.0]},
+                        {"position": [385.0, 300.0, -5.1], "scale": [4.0, 5.0, 10.0]}
+                    ],
+                    "extraScans": [
+                        {"position": [-41.3, -115.0, 2.0],  "rotation":180.0, "isRed": false, "combatVisible": true, "text": "20.0 Units: FJ SJ Jump"},
+                        {"position": [-65.0, -115.0, 23.0], "rotation":180.0, "isRed": false, "combatVisible": true, "text": "195.0 Units: FJ SJ R-Dash"},
+                        {"position": [-281.5, -115.0, 23.0], "rotation":180.0, "isRed": false, "combatVisible": true, "text": "INF Units: FJ IBJ"},
+
+                        {"position": [294.9, -300.0, 2.0], "isRed": true, "combatVisible": true, "text": "Bunny Hop Course"},
+
+                        {"position": [294.9, -200.0, 2.0], "isRed": true, "combatVisible": true, "text": "NSJ Jumps"},
+
+                        {"position": [316.0, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "11.5 Units: NSJ Casual Jump. This is the biggest gap Retro expects you to cross."},
+                        {"position": [339.0, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "13.0 Units: NSJ Casual Jump Holding L."},
+                        {"position": [364.0, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "15.0 Units: NSJ L-Jump. Common Mistake - Releasing L too early."},
+                        {"position": [389.5, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "15.5 Units: NSJ L-Jump Twist. Note that pressing R does nothing."},
+                        {"position": [424.0, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "18.5 Units: NSJ Bunny Hop. Tip - You should be sideways at the bunny hop point."},
+                        {"position": [459.5, -200.0, 2.0], "isRed": false, "combatVisible": true, "text": "22.0 Units: NSJ Reverse Slope Bunny Hop."},
+
+                        {"position": [294.9, -100.0, 2.0], "isRed": true, "combatVisible": true, "text": "NSJ Dashes"},
+
+                        {"position": [337.0, -100.0, 2.0], "isRed": false, "combatVisible": true, "text": "32.5 Units: NSJ Dash. Common mistakes include holding B for too long and releasing L too early."},
+                        {"position": [383.0, -100.0, 2.0], "isRed": false, "combatVisible": true, "text": "36.0 Units: NSJ R-Dash. Tip - Stand as far back as possible."},
+                        {"position": [425.9, -100.0, 2.0], "isRed": false, "combatVisible": true, "text": "31.0 Units: NSJ R-Dash into Bunny Hop."},
+
+                        {"position": [294.9, 0.0, 2.0], "isRed": true, "combatVisible": true, "text": "SJ Jumps"},
+
+                        {"position": [330.5, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "26.0 Units: SJ Casual Jump. This is the biggest gap Retro expects you to cross."},
+                        {"position": [369.5, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "29.0 Units: SJ L-Jump"},
+                        {"position": [411.5, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "32.0 Units: SJ R-Jump (Easy). Most common mistake is not turning enough."},
+                        {"position": [453.5, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "32.0 Units: SJ R-Jump around an obstacle"},
+                        {"position": [509.5, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "36.0 Units: SJ R-Jump (Hard). Most common mistake is not holding both L and R during the 2nd Jump."},
+                        {"position": [559.0, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "39.5 Units: SJ R-Jump (Extreme). Tip - Try pressing R a few frames before the first L release. It can help prevent bleeding speed due to changing stick angles."},
+                        {"position": [619.0, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "43.0 Units: SJ Bunny Hop. Tip - You should be sideways at the bunny hop point."},
+                        {"position": [674.0, 0.0, 2.0], "isRed": false, "combatVisible": true, "text": "45.0 Units: Grapple Space Jump. Use 1st jump before grappling and 2nd after grappling."},
+
+                        {"position": [294.9, 100.0, 2.0], "isRed": true, "combatVisible": true, "text": "SJ Dashes"},
+
+                        {"position": [365.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "61.0 Units: SJ Dash. Common mistakes include holding B for too long and releasing L too early."},
+                        {"position": [423.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "45.0 Units: SJ Dash with Momentum Cancel. Press L to prevent overshooting the target platform."},
+                        {"position": [527.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "72.0 Units: SJ Lock-on R-Dash. Tip - Stand as far back as possible."},
+                        {"position": [609.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "72.0 Units: SJ L+R-Dash. Tip - Think of it like a Lock-on R-Dash where this isn't enough distance to remain locked on."},
+                        {"position": [693.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "74.0 Units: SJ L+R-Dash with Bending. Hold slightly up or down to accelerate more while in the air."},
+                        {"position": [773.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "70.0 Units: SJ Grapple Dash"},
+                        {"position": [846.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "63.0 Units: SJ Dash around an obstacle"},
+                        {"position": [889.5, 100.0, 2.0], "isRed": false, "combatVisible": true, "text": "33.0 Units: SJ Dash (Maximize Height). The most common mistake is using the 2nd jump too late."},
+
+                        {"position": [296.55, 200.00, 2.50], "combatVisible": true, "text": "3.3 Units: NSJ Single Bomb Jump (Intended)"},
+                        {"position": [326.55, 200.00, 2.50], "combatVisible": true, "text": "6.5 Units: NSJ Double Bomb Jump (Intended)"},
+                        {"position": [356.55, 200.00, 2.50], "combatVisible": true, "text": "7.8 Units: NSJ Double Bomb Jump"},
+                        {"position": [416.55, 200.00, 2.50], "combatVisible": true, "text": "9.8 Units: NSJ Laddered Double Bomb Jump"},
+                        {"position": [446.55, 200.00, 2.50], "combatVisible": true, "text": "8.1 Units: NSJ Triple Bomb Jump"},
+                        {"position": [476.55, 200.00, 2.50], "combatVisible": true, "text": "9.0 Units: NSJ HBJ"},
+                        {"position": [506.55, 200.00, 2.50], "combatVisible": true, "text": "10.0 Units: NSJ UBJ"},
+                        {"position": [536.55, 200.00, 2.50], "combatVisible": true, "text": "6.8 Units: NSJ BSJ"},
+                        {"position": [566.55, 200.00, 2.50], "combatVisible": true, "text": "7.4 Units: NSJ 3BSJ"},
+                        {"position": [596.55, 200.00, 2.50], "combatVisible": true, "text": "4.3 Units: NSJ Shallow Water Bomb Jump"},
+                        {"position": [626.55, 200.00, 2.50], "combatVisible": true, "text": "3.5 Units: NSJ Deep Water Bomb Jump"},
+                        {"position": [686.55, 200.00, 2.50], "combatVisible": true, "text": "6.6 Units: NSJ Boost IUJ"},
+
+                        {"position": [296.55, 300.00, 2.50], "combatVisible": true, "text": "3.4 Units: NSJ Jump)"},
+                        {"position": [326.55, 300.00, 2.50], "combatVisible": true, "text": "4.7 Units: NSJ Slope Jump"},
+                        {"position": [356.55, 300.00, 2.50], "combatVisible": true, "text": "5.1 Units: NSJ Reverse Slope Jump"},
+                        {"position": [381.25, 300.00, 2.50], "combatVisible": true, "text": "7.4 Units: NSJ Ledge Clip Jump"}
+                    ],
+                    "platforms": [
+                        {"position": [440.0, -224.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -216.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -208.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -200.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -192.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -184.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+                        {"position": [440.0, -176.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
+
+                        {"position": [676.0, 200.0, -0.7], "rotation": [0.0, -28.0, 0.0], "altPlatform": false},
+
+                        {"position": [327.0, 300.0, -0.1], "rotation": [0.0, -30.0, 0.0], "altPlatform": true},
+                        {"position": [350.5, 300.0, -0.9], "rotation": [0.0, 40.0, 0.0], "altPlatform": false},
+
+                        {
+                            "position": [0.0, 0.0, 1.0],
+                            "rotation": [15.0, 0.0, 0.0],
+                            "altPlatform": true
+                        }
+                    ],
+                    "cameraHints":[
+                        {"triggerPos": [536.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [566.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [686.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5}
+                    ],
+                    "liquids":[
+                        {"type":"WATER", "position": [596.0, 200.0, 1.4], "scale": [2.0, 4.0, 2.5]},
+                        {"type":"WATER", "position": [626.0, 200.0, 3.0], "scale": [2.0, 4.0, 4.0]}
+                    ],
+                    "repositions":[
+                    ],
+                    "lockOnPoints": [
+                        {"position": [-57.0, -80.0, 27.0]},
+                        {"position": [-57.0, -150.0, 27.0]},
+
+                        {"position": [-50.0, -115.0, 7.1]},
+
+                        {"position": [146.0, -100.0, 21.0], "isGrapple": true},
+
+                        {"position": [304.0, -100.0, 8.0]},
+                        {"position": [346.5, -100.0, 8.0]},
+                        {"position": [392.5, -100.0, 8.0]},
+                        {"position": [473.5, -100.0, 8.0]},
+
+                        {"position": [649.5, 0.0, 20.001], "isGrapple": true},
+
+                        {"position": [304.0, 100.0, 8.0]},
+                        {"position": [375.0, 100.0, 8.0]},
+                        {"position": [455.0, 140.0, 8.0]},
+                        {"position": [537.0, 100.0, 8.0]},
+                        {"position": [619.0, 100.0, 8.0]},
+                        {"position": [703.0, 100.0, 12.0], "isGrapple":true},
+                        {"position": [783.0, 100.0, 8.0]},
+                        {"position": [856.0, 100.0, 8.0]},
+                        {"position": [899.0, 100.0, 8.0]},
+
+                        {"position":[-251.000000, -251.000000, 3.000000]},
+                        {"position":[-251.000000, -201.000000, 5.000000]},
+                        {"position":[-251.000000, -151.000000, 7.000000]},
+                        {"position":[-251.000000, -101.000000, 9.000000]},
+                        {"position":[-251.000000, -51.000000, 7.000000]},
+                        {"position":[-251.000000, -1.000000, 5.000000]},
+                        {"position":[-251.000000, 49.000000, 3.000000]},
+                        {"position":[-251.000000, 99.000000, 1.000000]},
+                        {"position":[-251.000000, 149.000000, 3.000000]},
+                        {"position":[-251.000000, 199.000000, 5.000000]},
+                        {"position":[-251.000000, 249.000000, 7.000000]},
+                        {"position":[-201.000000, -251.000000, 3.000000]},
+                        {"position":[-201.000000, -201.000000, 5.000000]},
+                        {"position":[-201.000000, -151.000000, 7.000000]},
+                        {"position":[-201.000000, -101.000000, 9.000000]},
+                        {"position":[-201.000000, -51.000000, 7.000000]},
+                        {"position":[-201.000000, -1.000000, 5.000000]},
+                        {"position":[-201.000000, 49.000000, 3.000000]},
+                        {"position":[-201.000000, 99.000000, 1.000000]},
+                        {"position":[-201.000000, 149.000000, 3.000000]},
+                        {"position":[-201.000000, 199.000000, 5.000000]},
+                        {"position":[-201.000000, 249.000000, 7.000000]},
+                        {"position":[-151.000000, -251.000000, 3.000000]},
+                        {"position":[-151.000000, -201.000000, 5.000000]},
+                        {"position":[-151.000000, -151.000000, 7.000000]},
+                        {"position":[-151.000000, -101.000000, 9.000000]},
+                        {"position":[-151.000000, -51.000000, 7.000000]},
+                        {"position":[-151.000000, -1.000000, 5.000000]},
+                        {"position":[-151.000000, 49.000000, 3.000000]},
+                        {"position":[-151.000000, 99.000000, 1.000000]},
+                        {"position":[-151.000000, 149.000000, 3.000000]},
+                        {"position":[-151.000000, 199.000000, 5.000000]},
+                        {"position":[-151.000000, 249.000000, 7.000000]},
+                        {"position":[-101.000000, -251.000000, 3.000000]},
+                        {"position":[-101.000000, -201.000000, 5.000000]},
+                        {"position":[-101.000000, -151.000000, 7.000000]},
+                        {"position":[-101.000000, -101.000000, 9.000000]},
+                        {"position":[-101.000000, -51.000000, 7.000000]},
+                        {"position":[-101.000000, -1.000000, 5.000000]},
+                        {"position":[-101.000000, 49.000000, 3.000000]},
+                        {"position":[-101.000000, 99.000000, 1.000000]},
+                        {"position":[-101.000000, 149.000000, 3.000000]},
+                        {"position":[-101.000000, 199.000000, 5.000000]},
+                        {"position":[-101.000000, 249.000000, 7.000000]},
+                        {"position":[-51.000000, -251.000000, 3.000000]},
+                        {"position":[-51.000000, -201.000000, 5.000000]},
+                        {"position":[-51.000000, -151.000000, 7.000000]},
+                        {"position":[-51.000000, -101.000000, 9.000000]},
+                        {"position":[-51.000000, -51.000000, 7.000000]},
+                        {"position":[-51.000000, -1.000000, 5.000000]},
+                        {"position":[-51.000000, 49.000000, 3.000000]},
+                        {"position":[-51.000000, 99.000000, 1.000000]},
+                        {"position":[-51.000000, 149.000000, 3.000000]},
+                        {"position":[-51.000000, 199.000000, 5.000000]},
+                        {"position":[-51.000000, 249.000000, 7.000000]},
+                        {"position":[-1.000000, -251.000000, 3.000000]},
+                        {"position":[-1.000000, -201.000000, 5.000000]},
+                        {"position":[-1.000000, -151.000000, 7.000000]},
+                        {"position":[-1.000000, -101.000000, 9.000000]},
+                        {"position":[-1.000000, -51.000000, 7.000000]},
+                        {"position":[-1.000000, -1.000000, 5.000000]},
+                        {"position":[-1.000000, 49.000000, 3.000000]},
+                        {"position":[-1.000000, 99.000000, 1.000000]},
+                        {"position":[-1.000000, 149.000000, 3.000000]},
+                        {"position":[-1.000000, 199.000000, 5.000000]},
+                        {"position":[-1.000000, 249.000000, 7.000000]},
+                        {"position":[49.000000, -251.000000, 3.000000]},
+                        {"position":[49.000000, -201.000000, 5.000000]},
+                        {"position":[49.000000, -151.000000, 7.000000]},
+                        {"position":[49.000000, -101.000000, 9.000000]},
+                        {"position":[49.000000, -51.000000, 7.000000]},
+                        {"position":[49.000000, -1.000000, 5.000000]},
+                        {"position":[49.000000, 49.000000, 3.000000]},
+                        {"position":[49.000000, 99.000000, 1.000000]},
+                        {"position":[49.000000, 149.000000, 3.000000]},
+                        {"position":[49.000000, 199.000000, 5.000000]},
+                        {"position":[49.000000, 249.000000, 7.000000]},
+                        {"position":[99.000000, -251.000000, 3.000000]},
+                        {"position":[99.000000, -201.000000, 5.000000]},
+                        {"position":[99.000000, -151.000000, 7.000000]},
+                        {"position":[99.000000, -101.000000, 9.000000]},
+                        {"position":[99.000000, -51.000000, 7.000000]},
+                        {"position":[99.000000, -1.000000, 5.000000]},
+                        {"position":[99.000000, 49.000000, 3.000000]},
+                        {"position":[99.000000, 99.000000, 1.000000]},
+                        {"position":[99.000000, 149.000000, 3.000000]},
+                        {"position":[99.000000, 199.000000, 5.000000]},
+                        {"position":[99.000000, 249.000000, 7.000000]},
+                        {"position":[149.000000, -251.000000, 3.000000]},
+                        {"position":[149.000000, -201.000000, 5.000000]},
+                        {"position":[149.000000, -151.000000, 7.000000]},
+                        {"position":[149.000000, 49.000000, 3.000000]},
+                        {"position":[149.000000, 99.000000, 1.000000]},
+                        {"position":[149.000000, 149.000000, 3.000000]},
+                        {"position":[149.000000, 199.000000, 5.000000]},
+                        {"position":[149.000000, 249.000000, 7.000000]},
+                        {"position":[199.000000, -251.000000, 3.000000]},
+                        {"position":[199.000000, -201.000000, 5.000000]},
+                        {"position":[199.000000, -151.000000, 7.000000]},
+                        {"position":[199.000000, -101.000000, 9.000000]},
+                        {"position":[199.000000, -51.000000, 7.000000]},
+                        {"position":[199.000000, -1.000000, 5.000000]},
+                        {"position":[199.000000, 49.000000, 3.000000]},
+                        {"position":[199.000000, 99.000000, 1.000000]},
+                        {"position":[199.000000, 149.000000, 3.000000]},
+                        {"position":[199.000000, 199.000000, 5.000000]},
+                        {"position":[199.000000, 249.000000, 7.000000]},
+                        {"position":[249.000000, -251.000000, 3.000000]},
+                        {"position":[249.000000, -201.000000, 5.000000]},
+                        {"position":[249.000000, -151.000000, 7.000000]},
+                        {"position":[249.000000, -101.000000, 9.000000]},
+                        {"position":[249.000000, -51.000000, 7.000000]},
+                        {"position":[249.000000, -1.000000, 5.000000]},
+                        {"position":[249.000000, 49.000000, 3.000000]},
+                        {"position":[249.000000, 99.000000, 1.000000]},
+                        {"position":[249.000000, 149.000000, 3.000000]},
+                        {"position":[249.000000, 199.000000, 5.000000]},
+                        {"position":[249.000000, 249.000000, 7.000000]}
+                    ],
+                    "escapeSequences": [
+                        {
+                            "startTriggerPos": [296.0, -300.0, 8.0],
+                            "startTriggerScale": [1.9, 41.0, 15.0],
+                            "stopTriggerPos": [802.0, -300.0, 8.0],
+                            "stopTriggerScale": [3.0, 41.0, 15.0]
+                        }
+                    ]
+                },
+                "Sun Tower": {
+                    "pickups":[
+                        {
+                            "type": "Health Refill",
+                            "scanText": "Return to Sandbox",
+                            "model": "Nothing",
+                            "maxIncrease": 0,
+                            "currIncrease": 99999,
+                            "respawn": true,
+                            "destination":"Chozo:Meditation Fountain",
+                            "position": [261.0, 345.0, 77.5]
+                        }
+                    ],
+                    "repositions":[
+                        {
+                            "triggerPosition": [240.0, 345.0, 30.0],
+                            "triggerScale": [50.0, 50.0, 3.0],
+                            "destinationPosition": [257.0, 345.0, 78.0],
+                            "destinationRotation": 90.0
+                        }
+                    ]
+                }
+            }
+        },
+        "Frigate Orpheon": {
+            "transports": {},
+            "rooms": {}
+        }
+    }
+}
