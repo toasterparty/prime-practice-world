@@ -417,8 +417,10 @@
                         }
                     ],
                     "cameraHints":[
-                        {"triggerPos": [536.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
-                        {"triggerPos": [566.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [536.5, 200.0, 5.0], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [536.5, 200.0, 0.7], "triggerScale": [7.0, 7.0, 4.0], "cameraPos": [525.0, 200.0, 4.5], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},
+                        {"triggerPos": [566.5, 200.0, 6.2], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [566.5, 200.0, 1.5], "triggerScale": [7.0, 7.0, 4.5], "cameraPos": [555.0, 200.0, 5.0], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},
                         {"triggerPos": [686.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5}
                     ],
                     "liquids":[

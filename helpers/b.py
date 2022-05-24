@@ -56,7 +56,12 @@ for (pillar_height, pillar_name) in pillars:
         if "BSJ" in pillar_name:
             blocks.append('                        {"position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' % (current_x - 3.0, y + 3.5, (-1*pillar_height_offset) - 5.0, pillar_x_scale*1.3, 0.3, pillar_z_scale))
             blocks.append('                        {"position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' % (current_x - 3.0, y - 3.5, (-1*pillar_height_offset) - 5.0, pillar_x_scale*1.3, 0.3, pillar_z_scale))
-            camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},' % (current_x - 3.45, y, 2.0))
+            if "3BSJ" in pillar_name:
+                camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},' % (current_x - 3.45, y, 6.2))
+                camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 4.5], "cameraPos": [%0.1f, %0.1f, %0.1f], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},' % (current_x - 3.45, y, 1.5, current_x - 15.0, y, 5.0))
+            else:
+                camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},' % (current_x - 3.45, y, 5.0))
+                camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 4.0], "cameraPos": [%0.1f, %0.1f, %0.1f], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},' % (current_x - 3.45, y, 0.7, current_x - 15.0, y, 4.5))
 
         pillar_text = ""
         if pillar_height is not None:
