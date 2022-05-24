@@ -5,6 +5,23 @@
 @echo off
 setlocal
 
+echo Metroid Prime Practice World Patcher
+
+echo.
+echo Jumping once with Space Jump puts you higher into the air than without Space Jump.
+echo Do you understand? (y/n)
+SET /P AREYOUSURE=:
+IF /I "%AREYOUSURE%" NEQ "y" goto :EOF
+
+echo.
+echo Bomb Jumping with Space Jump puts you higher into the air than without Space Jump.
+echo Do you understand? (y/n)
+SET /P AREYOUSURE=:
+IF /I "%AREYOUSURE%" NEQ "y" goto :EOF
+
+echo.
+echo Please select your input ISO...
+
 for /f "delims=" %%I in ('powershell -noprofile "iex (${%~f0} | out-string)"') do (
     randomprime_patcher.exe --profile prime-practice-world.json --quickplay --input-iso "%%~I" --output-iso prime-practice-world.iso
 )
