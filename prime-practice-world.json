@@ -18,7 +18,8 @@
             "variaDeg": 0,
             "gravityDeg": 0,
             "phazonDeg": 0
-        }
+        },
+        "visibleBoundingBox":true
     },
     "gameConfig": {
         "resultsString": "Custom Text Here",
@@ -117,16 +118,6 @@
                             "scale": [50.0, 1.0, 60.0],
                             "texture": "grass"
                         }
-                    ],
-                    "lockOnPoints":[
-                        {"position": [792.0, -314.8, 121.3], "noLock":true},
-                        {"position": [816.6, -292.9, 121.3], "noLock":true},
-                        {"position": [792.0, -292.9, 121.3], "noLock":true},
-                        {"position": [816.6, -314.8, 121.3], "noLock":true},
-                        {"position": [792.0, -314.8, 151.6], "noLock":true},
-                        {"position": [816.6, -292.9, 151.6], "noLock":true},
-                        {"position": [792.6, -292.9, 151.6], "noLock":true},
-                        {"position": [816.6, -314.9, 151.6], "noLock":true}
                     ]
                 },
                 "Meditation Fountain": {

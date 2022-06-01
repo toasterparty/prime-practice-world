@@ -31,4 +31,4 @@ NOTE: Prime Practice Mod is an acceptable input ISO, but only if it is the [Lega
 
 Thank you Claris, Aruki, Syncathetic, Pwootage, Antidote and Encounter for making the giant whose shoulder I now stand on.
 
-Thank you Justin for providing feedback.
+Thank you Justin and Interslice for providing feedback.
