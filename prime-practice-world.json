@@ -1,17 +1,16 @@
 {
     "seed": 123,
     "tweaks": {
-        "gunDamage": 1.0,
-        "scanRange": 150.0
+        "scanRange": 120.0
     },
     "preferences": {
         "forceFusion": false,
+        "quickplay": true,
         "skipSplashScreens": true,
-        "qolGameBreaking": true,
-        "qolCosmetic": true,
+        "qolGameBreaking": false,
+        "qolCosmetic": false,
         "qolCutscenes": "original",
         "qolPickupScans": false,
-        "quickplay": false,
         "quickpatch": false,
         "suitColors": {
             "powerDeg": 0,
@@ -22,7 +21,6 @@
         "visibleBoundingBox":true
     },
     "gameConfig": {
-        "resultsString": "Custom Text Here",
         "startingRoom": "Chozo:Meditation Fountain",
         "springBall": true,
         "warpToStart": true,
@@ -55,7 +53,7 @@
         },
         "itemMaxCapacity": {
             "Missile": 999,
-            "Power Bomb": 9
+            "Power Bomb": 99
         }
     },
     "levelData": {
