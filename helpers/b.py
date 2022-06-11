@@ -25,7 +25,8 @@ pillars = [
     (9.0, "NSJ HBJ"),
     (10.0, "NSJ UBJ"),
     (6.8, "NSJ BSJ"),
-    (7.4, "NSJ 3BSJ"),
+    (8.4, "NSJ 2BSJ"),
+    (8.8, "NSJ 3BSJ"),
     (4.3, "NSJ Shallow Water Bomb Jump"),
     (3.5, "NSJ Deep Water Bomb Jump"),
     (6.6, "NSJ Boost IUJ"),
@@ -44,7 +45,7 @@ i = 0
 for (pillar_height, pillar_name) in pillars:
     i += 1
 
-    if y == 200.0 and i == 13:
+    if y == 200.0 and i == 14:
         current_x += x_spacing
 
     if pillar_name is not None:
@@ -56,7 +57,7 @@ for (pillar_height, pillar_name) in pillars:
         if "BSJ" in pillar_name:
             blocks.append('                        {"position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' % (current_x - 3.0, y + 3.5, (-1*pillar_height_offset) - 5.0, pillar_x_scale*1.3, 0.3, pillar_z_scale))
             blocks.append('                        {"position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' % (current_x - 3.0, y - 3.5, (-1*pillar_height_offset) - 5.0, pillar_x_scale*1.3, 0.3, pillar_z_scale))
-            if "3BSJ" in pillar_name:
+            if "3BSJ" in pillar_name or "2BSJ" in pillar_name:
                 camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},' % (current_x - 3.45, y, 6.2))
                 camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 4.5], "cameraPos": [%0.1f, %0.1f, %0.1f], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},' % (current_x - 3.45, y, 1.5, current_x - 15.0, y, 5.0))
             else:
@@ -82,17 +83,17 @@ for (pillar_height, pillar_name) in pillars:
             blocks.append('                        {"position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' % (current_x - 5.0, y, 3.4 + pillar_height_offset, pillar_x_scale, pillar_y_scale - 1.0, pillar_z_scale))
 
     if y == 200.0:
-        if i == 11:
+        if i == 12:
             liquids.append(
                 '                        {"type":"WATER", "position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' %
                 (current_x - 4.0, y, 1.4, pillar_x_scale - 2.0, pillar_y_scale, 2.5)
             )
-        elif i == 12:
+        elif i == 13:
             liquids.append(
                 '                        {"type":"WATER", "position": [%0.1f, %0.1f, %0.1f], "scale": [%0.1f, %0.1f, %0.1f]},' %
                 (current_x - 4.0, y, 3.0, pillar_x_scale - 2.0, pillar_y_scale, 4.0)
             )
-        elif i == 13:
+        elif i == 14:
             platforms.append(   '                        {"position": [%0.1f, %0.1f, -0.7], "rotation": [0.0, -28.0, 0.0], "altPlatform": false},' % (current_x - 14.0, y))
             camera_hints.append('                        {"triggerPos": [%0.1f, %0.1f, %0.1f], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},' % (current_x - 3.45, y, 2.0))
 

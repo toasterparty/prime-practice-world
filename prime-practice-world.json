@@ -319,12 +319,15 @@
                         {"position": [540.0, 200.0, -1.7], "scale": [4.0, 4.0, 10.0]},
                         {"position": [537.0, 203.5, 3.5], "scale": [5.2, 0.3, 10.0]},
                         {"position": [537.0, 196.5, 3.5], "scale": [5.2, 0.3, 10.0]},
-                        {"position": [570.0, 200.0, -1.1], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [570.0, 200.0, -0.5], "scale": [4.0, 4.0, 10.0]},
                         {"position": [567.0, 203.5, 3.5], "scale": [5.2, 0.3, 10.0]},
                         {"position": [567.0, 196.5, 3.5], "scale": [5.2, 0.3, 10.0]},
-                        {"position": [600.0, 200.0, -4.2], "scale": [4.0, 4.0, 10.0]},
-                        {"position": [630.0, 200.0, -5.0], "scale": [4.0, 4.0, 10.0]},
-                        {"position": [690.0, 200.0, -1.9], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [600.0, 200.0, -0.1], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [597.0, 203.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [597.0, 196.5, 3.5], "scale": [5.2, 0.3, 10.0]},
+                        {"position": [630.0, 200.0, -4.2], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [660.0, 200.0, -5.0], "scale": [4.0, 4.0, 10.0]},
+                        {"position": [720.0, 200.0, -1.9], "scale": [4.0, 4.0, 10.0]},
 
                         {"position": [300.0, 300.0, -5.1], "scale": [4.0, 6.0, 10.0]},
                         {"position": [330.0, 300.0, -3.8], "scale": [4.0, 6.0, 10.0]},
@@ -385,10 +388,11 @@
                         {"position": [476.55, 200.00, 2.50], "combatVisible": true, "text": "9.0 Units: NSJ HBJ"},
                         {"position": [506.55, 200.00, 2.50], "combatVisible": true, "text": "10.0 Units: NSJ UBJ"},
                         {"position": [536.55, 200.00, 2.50], "combatVisible": true, "text": "6.8 Units: NSJ BSJ"},
-                        {"position": [566.55, 200.00, 2.50], "combatVisible": true, "text": "7.4 Units: NSJ 3BSJ"},
-                        {"position": [596.55, 200.00, 2.50], "combatVisible": true, "text": "4.3 Units: NSJ Shallow Water Bomb Jump"},
-                        {"position": [626.55, 200.00, 2.50], "combatVisible": true, "text": "3.5 Units: NSJ Deep Water Bomb Jump"},
-                        {"position": [686.55, 200.00, 2.50], "combatVisible": true, "text": "6.6 Units: NSJ Boost IUJ"},
+                        {"position": [566.55, 200.00, 2.50], "combatVisible": true, "text": "8.0 Units: NSJ 2BSJ"},
+                        {"position": [596.55, 200.00, 2.50], "combatVisible": true, "text": "8.4 Units: NSJ 3BSJ"},
+                        {"position": [626.55, 200.00, 2.50], "combatVisible": true, "text": "4.3 Units: NSJ Shallow Water Bomb Jump"},
+                        {"position": [656.55, 200.00, 2.50], "combatVisible": true, "text": "3.5 Units: NSJ Deep Water Bomb Jump"},
+                        {"position": [716.55, 200.00, 2.50], "combatVisible": true, "text": "6.6 Units: NSJ Boost IUJ"},
 
                         {"position": [296.55, 300.00, 2.50], "combatVisible": true, "text": "3.4 Units: NSJ Jump)"},
                         {"position": [326.55, 300.00, 2.50], "combatVisible": true, "text": "4.7 Units: NSJ Slope Jump"},
@@ -404,7 +408,7 @@
                         {"position": [440.0, -184.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
                         {"position": [440.0, -176.0, 0.7], "rotation": [0.0, 23.0, 0.0], "altPlatform": true},
 
-                        {"position": [676.0, 200.0, -0.7], "rotation": [0.0, -28.0, 0.0], "altPlatform": false},
+                        {"position": [706.0, 200.0, -0.7], "rotation": [0.0, -28.0, 0.0], "altPlatform": false},
 
                         {"position": [327.0, 300.0, -0.1], "rotation": [0.0, -30.0, 0.0], "altPlatform": true},
                         {"position": [350.5, 300.0, -0.9], "rotation": [0.0, 40.0, 0.0], "altPlatform": false},
@@ -420,11 +424,13 @@
                         {"triggerPos": [536.5, 200.0, 0.7], "triggerScale": [7.0, 7.0, 4.0], "cameraPos": [525.0, 200.0, 4.5], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},
                         {"triggerPos": [566.5, 200.0, 6.2], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
                         {"triggerPos": [566.5, 200.0, 1.5], "triggerScale": [7.0, 7.0, 4.5], "cameraPos": [555.0, 200.0, 5.0], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},
-                        {"triggerPos": [686.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5}
+                        {"triggerPos": [596.5, 200.0, 6.2], "triggerScale": [7.0, 7.0, 3.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5},
+                        {"triggerPos": [596.5, 200.0, 1.5], "triggerScale": [7.0, 7.0, 4.5], "cameraPos": [585.0, 200.0, 5.0], "cameraRot": [-20.0, 0.0, -90.0], "behavior": 5},
+                        {"triggerPos": [716.5, 200.0, 2.0], "triggerScale": [7.0, 7.0, 15.0], "cameraPos": [209.6516, -121.3058, 23.9048], "cameraRot": [-13.0, 0.0, 0.0], "behavior": 5}
                     ],
                     "liquids":[
-                        {"type":"WATER", "position": [596.0, 200.0, 1.4], "scale": [2.0, 4.0, 2.5]},
-                        {"type":"WATER", "position": [626.0, 200.0, 3.0], "scale": [2.0, 4.0, 4.0]}
+                        {"type":"WATER", "position": [626.0, 200.0, 1.4], "scale": [2.0, 4.0, 2.5]},
+                        {"type":"WATER", "position": [656.0, 200.0, 3.0], "scale": [2.0, 4.0, 4.0]}
                     ],
                     "repositions":[
                     ],
