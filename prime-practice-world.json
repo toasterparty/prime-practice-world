@@ -240,8 +240,8 @@
                             "texture": "snow"
                         },
 
-                        {"position": [676.0, -300.0, 0.001],"scale": [150.0, 25.0, 3.5]},
-                        {"position": [422.5, -300.0, 0.0],"scale": [150.0, 25.0, 3.5]},
+                        {"position": [676.0, -300.0, 10.001],"scale": [150.0, 25.0, 3.5]},
+                        {"position": [422.5, -300.0, 10.0],"scale": [150.0, 25.0, 3.5]},
 
                         {"position": [300.0, -200.0, 0.0],"scale": [6.0, 50.0, 3.5]},
                         {"position": [321.5, -200.0, 0.000],"scale": [6.0, 50.0, 3.5]},
@@ -433,6 +433,18 @@
                         {"type":"WATER", "position": [656.0, 200.0, 3.0], "scale": [2.0, 4.0, 4.0]}
                     ],
                     "repositions":[
+                        {
+                            "triggerPosition": [296.0, -300.0, 2.0],
+                            "triggerScale": [1.9, 41.0, 10.0],
+                            "destinationPosition": [300.0, -300.0, 13.5],
+                            "destinationRotation": -90.0
+                        },
+                        {
+                            "triggerPosition": [803.0, -300.0, 18.0],
+                            "triggerScale": [3.0, 41.0, 15.0],
+                            "destinationPosition": [280.0, -300.0, 2.0],
+                            "destinationRotation": -90.0
+                        }
                     ],
                     "lockOnPoints": [
                         {"position": [-57.0, -80.0, 27.0]},
@@ -580,9 +592,9 @@
                     ],
                     "escapeSequences": [
                         {
-                            "startTriggerPos": [296.0, -300.0, 8.0],
-                            "startTriggerScale": [1.9, 41.0, 15.0],
-                            "stopTriggerPos": [802.0, -300.0, 8.0],
+                            "startTriggerPos": [297.0, -300.0, 18.0],
+                            "startTriggerScale": [2.5, 1.0, 10.0],
+                            "stopTriggerPos": [802.0, -300.0, 18.0],
                             "stopTriggerScale": [3.0, 41.0, 15.0]
                         }
                     ]
