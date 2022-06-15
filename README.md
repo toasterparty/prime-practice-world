@@ -1,6 +1,6 @@
 # Metroid Prime Practice World
 
-This is a romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a simple and guided manner. Practice World has plenty to offer for both beginners and experts alike.
+The first of it's kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of speedrunning and randomizer movement techniques. It has plenty to offer for both newcomers and verterans alike.
 
 *Trailer Goes Here*
 
@@ -8,7 +8,7 @@ This is a romhack for the Gamecube version(s) of Metroid Prime 1. It is designed
 
 ## Features
 
-- Everything is accesible in one large room without the use of cheats, menus, resets, etc.
+- Everything is accessible in one large room without the use of cheats, menus, resets, etc.
 - 10 detailed courses to lean and practice nearly every variation of every movement technique
 - Custom Scan Points provide trick descriptions and tips
 - Bunny-hop track with on-screen stopwatch
