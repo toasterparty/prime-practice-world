@@ -1,19 +1,21 @@
 # Metroid Prime Practice World
 
-The first of it's kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of movement techniques used in speedrunning and randomizer. It has plenty to offer for both newcomers and verterans alike.
+The first of its kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of movement techniques used in speedrunning and randomizer. It has plenty to offer for both newcomers and verterans alike.
 
-*Trailer Goes Here*
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=2Ds1bzPnsZI" target="_blank">
+ <img src="http://img.youtube.com/vi/2Ds1bzPnsZI/mqdefault.jpg" alt="Trailer Video" width="480" height="360" border="10" />
+</a>
 
 ![img01](/img/img01.png)
 
 ## Features
 
 - Everything is accessible in one large room without the use of cheats, menus, resets, etc.
-- 10 detailed courses to lean and practice nearly every variation of every movement technique
+- 10 detailed courses to learn and practice nearly every variation of every movement technique
 - Custom Scan Points provide trick descriptions and tips
 - Bunny-hop track with on-screen stopwatch
 - Aether Box Box™ visual aid to help learn the basics of OoB movement without risk of falling
-- Aether Box visual aid on all room in the game
+- Aether Box visual aid on every room in the game
 - Early Wild Practice Aid (keeps you from falling all the way down)
 - Easily add/remove Space Jump from inventory
 - On-Demand Floaty Jump
