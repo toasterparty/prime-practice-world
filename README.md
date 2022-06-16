@@ -2,10 +2,10 @@
 
 The first of its kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of movement techniques used in speedrunning and randomizer. It has plenty to offer for both newcomers and verterans alike.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=2Ds1bzPnsZI" target="_blank">
- <img src="http://img.youtube.com/vi/2Ds1bzPnsZI/mqdefault.jpg" alt="Trailer Video" width="480" height="360" border="10" />
-</a>
+## 🎬🎞️ 🎥
+[WATCH VIDEO TRAILER](https://youtu.be/2Ds1bzPnsZI)
 
+## Map
 ![img01](/img/img01.png)
 
 ## Features
