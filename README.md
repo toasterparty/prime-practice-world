@@ -10,6 +10,7 @@ The first of its kind, Prime Practice World is a custom map romhack for the Game
 
 ## Features
 
+- Works on original hardware
 - Everything is accessible in one large room without the use of cheats, menus, resets, etc.
 - 10 detailed courses to learn and practice nearly every variation of every movement technique
 - Custom Scan Points provide trick descriptions and tips
