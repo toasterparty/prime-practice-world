@@ -1,6 +1,6 @@
 # Metroid Prime Practice World
 
-The first of its kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of movement techniques used in speedrunning and randomizer. It has plenty to offer for both newcomers and verterans alike.
+The first of its kind, Prime Practice World is a custom map romhack for the Gamecube version(s) of Metroid Prime 1. It is designed for deep exploration of the game's movement mechanics in a controlled/guided manner. Practice World is intended as a supplement for the development of movement techniques used in speedrunning and randomizer. It has plenty to offer for both newcomers and veterans alike.
 
 ## 🎬🎞️ 🎥
 [WATCH VIDEO TRAILER](https://youtu.be/2Ds1bzPnsZI)
